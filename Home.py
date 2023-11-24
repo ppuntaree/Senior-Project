@@ -27,7 +27,7 @@ st.markdown("""
         """, unsafe_allow_html=True)
 
 # Page header and sidebar setup
-add_logo("D:\\Project\\streamlit\\image\\IRPC.png")
+add_logo("D:\\Project\\Streamlit-app\\image\\\IRPC.png")
 
 # Add objective section
 with st.container():
@@ -41,7 +41,7 @@ with st.container():
     col1, col2, col3, col4 = st.columns(4, gap="medium")
     with col1:
         stream_url = (
-            "D:\\Project\\streamlit\\image\\process_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\process_0.png"
         )
         with Image.open(stream_url) as stream:
             st.image(stream, width=64)
@@ -51,7 +51,7 @@ with st.container():
             )
     with col2:
         clock_url = (
-            "D:\\Project\\streamlit\\image\\clock_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\clock_0.png"
         )
         with Image.open(clock_url) as clock:
             st.image(clock, width=64)
@@ -61,7 +61,7 @@ with st.container():
             )
     with col3:
         quality_url = (
-            "D:\\Project\\streamlit\\image\\quality_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\quality_0.png"
         )
         with Image.open(quality_url) as quality:
             st.image(quality, width=64)
@@ -71,7 +71,7 @@ with st.container():
             )
     with col4:
         inno_url = (
-            "D:\\Project\\streamlit\\image\\innovation_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\innovation_0.png"
         )
         with Image.open(inno_url) as innovation:
             st.image(innovation, width=64)
@@ -89,14 +89,14 @@ with st.container():
     with col1:
         st.subheader(":red[**As-is:**]")
         asis_url = (
-            "D:\\Project\\streamlit\\image\\Asis_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\Asis_0.png"
         )
         with Image.open(asis_url) as asis:
             st.image(asis, width=450)
     with col2:
         st.subheader(":blue[**To-be:**]")
         tobe_url = (
-            "D:\\Project\\streamlit\\image\\Tobe_0.png"
+            "D:\\Project\\Streamlit-app\\image\\\Tobe_0.png"
         )
         with Image.open(tobe_url) as tobe:
             st.image(tobe, width=450)

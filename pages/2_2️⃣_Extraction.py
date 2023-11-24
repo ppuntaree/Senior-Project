@@ -653,7 +653,7 @@ if 'initialization' not in st.session_state:
 
 st.set_page_config(page_title = "Extraction" , page_icon="📑", layout="wide")
 st.markdown("# 2️⃣Extraction")
-add_logo("D:\\Project\\streamlit\\image\\IRPC.png")
+add_logo("D:\\Project\\Streamlit-app\\image\\\IRPC.png")
 st.markdown(
         """
         <div style="position: fixed; bottom: 0; right: 0; padding: 1rem;">
