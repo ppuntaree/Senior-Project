@@ -12,7 +12,7 @@ import os
 st.set_page_config(
     page_title="P&ID to e-DL Application", layout="wide", page_icon=":robot_face:"
 )
-st.markdown("# P&ID to e-DL Processsing Web Application")
+st.markdown("# P&ID to e-DL Processing Web Application")
 
 # Remove whitespace from the top of the page and sidebar
 st.markdown("""
